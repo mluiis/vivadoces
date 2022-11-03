@@ -1,0 +1,216 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Roboto:ital,wght@0,100;0,400;1,100&display=swap');
+
+
+body {
+background: url(img/capa1.png),
+            url(img/ruido.png),
+            linear-gradient(50deg,#157a8c,#8dbdeb);*/
+             /*background: #333;
+  background-image: 
+    radial-gradient(ellipse at bottom left, rgba(0,163,203,1) 40%, rgba(0,163,203,0) 40%),
+    radial-gradient(ellipse at top right, rgba(0,163,203,1) 30%, rgba(0,163,203,0) 30%),
+    linear-gradient(to right, rgba(98,87,147,1) 0%, rgba(98,87,147,1) 33%, rgba(213,93,100,1) 33%, rgba(213,93,100,1) 66%, rgba(228,145,41,1) 66%);
+  background-size: 50% 100%;
+;*/
+background-attachment: fixed;
+
+font-family: 'Fuzzy Bubbles', cursive;
+
+
+}
+nav.navbar {
+
+  /*background: rgba( 230, 230, 250, 0.6);*/
+  background: whitesmoke;
+}
+
+.navbar-light .navbar-nav .nav-link {
+
+  font-weight: 460;
+  color:#3b5274
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+
+  font-weight: 500;
+  color:#00b9bd;
+  border-radius: 5px;
+   box-shadow: 0 8px 8px -4px lightblue;
+  /*0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)*/
+   background: #eee;
+
+}
+
+button .navbar-toggler-icon {
+color: whitesmoke;
+}
+
+#carrossel { 
+padding-top: 85px;
+
+}
+.card {
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 30px;
+  margin: 20px;
+  width: 160px;
+  max-width: 160px;
+  transition: background 0.4s, color 0.4s ease-out;
+
+}
+.card:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+ 
+.card p {
+  color: #a3a5ae;
+  font-size: 14px;
+}
+.card h6{
+
+margin-top: -20px;
+font-size: 14px;
+font-weight: 900;
+}
+ 
+.image {
+  float: right;
+  max-width: 64px;
+  max-height: 64px;
+}
+
+.blue {
+  border-left: 3px solid #4895ff;
+}
+ 
+.green {
+  border-left: 3px solid #3bb54a;
+}
+ 
+.red {
+  border-left: 3px solid #b3404a;
+}
+.pink { border-left: 3px solid pink;
+ }
+
+.violet {
+  border-left: 3px solid violet;
+}
+.brown {
+  border-left: 3px solid brown;
+}
+
+.menu {
+
+  color: #804000;
+  font-weight: 400;
+}
+.menu:hover {
+
+  border-radius: 5px;
+  color:#b3d9ff ;
+
+}
+#cards{
+
+  background:  #f9f2ec;
+  text-align: center;
+  align-items: center;
+}
+
+.tipos {
+text-align: center;
+color: black;
+font-size: 21px;
+
+}
+.NP { 
+font-size:40px;
+  text-align: center;
+
+}
+iframe {
+
+  border-radius: 5px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+  align-items: center;
+  border: 0;
+ padding-bottom: 2px;
+}
+.canto {
+
+
+}
+
+.encomenda { 
+position: fixed;
+right: -80px;
+width: 200px;
+z-index: 99999;
+top:720px;
+border-radius: 50px;
+
+
+ }
+ .encomenda:hover {
+  cursor: pointer;
+   transform: translateY(20px);
+  
+  transition: all 0.3s ease-out;
+ }
+
+ .depo {
+
+  border-radius: 22px;
+ box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+  padding: 30px;
+  margin: 20px;
+  transition: all 0.3s ease-out;
+  min-width:150px;
+  max-width: 150px;
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+  backdrop-filter: blur(20px);
+    transform: translateX(10px);
+    cursor: pointer;
+     /*background: radial-gradient(#f588d8, #c0a3e5);*/
+
+  
+ }
+ .depo h6 {
+  font-size: 14px;
+ }
+ .depo p{
+  font-size: 14px;
+ }
+
+ .color:hover{
+
+
+     border: 1px solid transparentize($white, 0.5);
+    transform: translateY(10px);
+ }
+
+.text-white {
+
+  text-align: center;
+  font-size: 40px;
+}
